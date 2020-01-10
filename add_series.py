@@ -25,4 +25,3 @@ for serie in series:
         print(response.text)
     else:
         print(f'Added \'{title}\'')
-    break
