@@ -1,4 +1,3 @@
-import os
 import json
 import requests
 from decouple import config
@@ -26,3 +25,4 @@ for serie in series:
         print(response.text)
     else:
         print(f'Added \'{title}\'')
+    break
